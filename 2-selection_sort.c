@@ -25,7 +25,7 @@ void selection_sort(int *array, size_t size)
 		{
 			if (array[temp] > array[index])
 			{
-				tmp = index;
+				temp = index;
 				flag += 1;
 			}
 		}
